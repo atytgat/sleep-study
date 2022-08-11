@@ -11,7 +11,7 @@ The database is already structured in long format (one line per timepoint). The 
 - treatment: treatment A or B
 
 The main research question concerns the impact of treatment on reaction time.
-It can be assumed that the missing values are "missing completely at random" i.e. the probability of absence is the same for all probability of absence is the same for all observations. This probability does not depend This probability does not depend on the observed values of the response nor on the unobserved values.
+It can be assumed that the missing values are "missing completely at random" i.e. the probability of absence is the same for all probability of absence is the same for all observations. This probability does not depend on the observed values of the response nor on the unobserved values.
 
 
 Several linear models are built in SAS, some with mixed effects and some with mixed error-components to account for the correlations present in the dataset. Each model considered is chosen based upon assumptions made on the data, and each tries to improve upon the previous models considered. We conclude that it can not be asserted that the treatment has any effects on the reaction time of the patients.
